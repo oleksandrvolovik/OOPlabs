@@ -15,12 +15,12 @@ public class Main {
         final int C = 2;
         int a = 1;
         int b = 1;
-        int n = 5;
-        int m = 5;
+        int n = 15;
+        int m = 85;
         try {
             for (long i = a; i <= n; i++) {
                 for (long j = b; j <= m; j++) {
-                    S = S + ((double) (i / j) / (i + C));
+                    S = S + (((double)i/j)/(i + C));
                 }
             }
             System.out.println(S);

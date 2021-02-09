@@ -10,8 +10,8 @@ package lab2;
 public class Main {
 
     public static void main(String[] args) {
-        int [][] B = {{2,4,3,8}, {1,4,6,5}, {9,4,6,5}}; // Матриця B
-        int [][] C = new int[4][3]; // Матриця C
+        int [][] B = {{2,4,3,8}, {1,4,6,5}, {9,4,6,5}};     // Матриця B
+        int [][] C = new int[B[0].length][B.length];        // Матриця C
         System.out.println("Початкова матриця B:");
         for (int i = 0; i < B.length; i++) {
             for (int j = 0; j < B[i].length; j++) {
@@ -34,7 +34,7 @@ public class Main {
         }
 
         double sum = 0;
-        System.out.println("\nРядок C - середнє значення елементів");
+        System.out.println("\nРядок C - середнє значення елементів рядка");
         for (int i = 0; i < C.length; i++) {
             for (int j = 0; j < C[i].length; j++) {
                 sum = sum + C[i][j];

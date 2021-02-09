@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df4b4dd2-2b78-41a2-8807-ca16b16b0979" name="Default Changelist" comment="" />
+    <list default="true" id="df4b4dd2-2b78-41a2-8807-ca16b16b0979" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lab2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +86,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab2.Main" />
+      <module name="OOPlabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lab1.Main" />
       <module name="OOPlabs" />
@@ -102,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -116,6 +140,8 @@
       <updated>1612607400580</updated>
       <workItem from="1612607405871" duration="3183000" />
       <workItem from="1612633585643" duration="2268000" />
+      <workItem from="1612882125329" duration="795000" />
+      <workItem from="1612892439205" duration="2401000" />
     </task>
     <servers />
   </component>

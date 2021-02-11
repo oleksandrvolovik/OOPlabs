@@ -16,17 +16,16 @@ public class Main {
         int a = 1;
         int b = 1;
         int n = 15;
-        int m = 85;
-        try {
+        int m = 30;
+        if (a <= -C && n >= -C || b <= 0 && m >= 0) {
+            System.out.println("Виконання припинено: виявлено ділення на нуль.");
+        } else {
             for (long i = a; i <= n; i++) {
                 for (long j = b; j <= m; j++) {
-                    S = S + (((double)i/j)/(i + C));
+                    S = S + (((double) i / j) / (i + C));
                 }
             }
             System.out.println(S);
-        } catch (Exception exc) {
-            System.out.println("Caught exception:");
-            System.out.println(exc.getMessage());
         }
     }
 }

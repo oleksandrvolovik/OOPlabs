@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4b4dd2-2b78-41a2-8807-ca16b16b0979" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lab3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOPlabs/lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPlabs/lab1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOPlabs/lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPlabs/lab2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +90,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lab3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab2.Main" />
       <module name="OOPlabs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.Main" />
+      <module name="OOPlabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -141,6 +164,8 @@
       <workItem from="1612882125329" duration="795000" />
       <workItem from="1612892439205" duration="2675000" />
       <workItem from="1612904956818" duration="239000" />
+      <workItem from="1612938744697" duration="5965000" />
+      <workItem from="1613044493888" duration="4857000" />
     </task>
     <servers />
   </component>

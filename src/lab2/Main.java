@@ -10,25 +10,26 @@ package lab2;
 public class Main {
 
     public static void main(String[] args) {
-        int [][] B = {{2,4,3,8}, {1,4,6,5}, {9,4,6,5}};     // Матриця B
-        int [][] C = new int[B[0].length][B.length];        // Матриця C
-        System.out.println("Початкова матриця B:");
+        int[][] B = {{2, 4, 3, 8}, {1, 4, 6, 5}, {9, 4, 6, 5}};     // Матриця B
+        int[][] C = new int[B[0].length][B.length];        // Матриця C
+
+        System.out.println("Початкова матриця B:");         // Вивід початкової матриці
         for (int i = 0; i < B.length; i++) {
             for (int j = 0; j < B[i].length; j++) {
-                System.out.print(B[i][j]+" ");
+                System.out.print(B[i][j] + " ");
             }
             System.out.print("\n");
         }
 
-        for (int i = 0; i< B.length; i++) {
-            for (int j = 0; j< B[i].length; j++) {
+        for (int i = 0; i < B.length; i++) {                 // Транспонування
+            for (int j = 0; j < B[i].length; j++) {
                 C[j][i] = B[i][j];
             }
         }
-        System.out.println("\nC = Bт:(транспонування)");
+        System.out.println("\nC = Bт:(транспонування)");    // Вивід матриці C
         for (int i = 0; i < C.length; i++) {
             for (int j = 0; j < C[i].length; j++) {
-                System.out.print(C[i][j]+" ");
+                System.out.print(C[i][j] + " ");
             }
             System.out.print("\n");
         }
@@ -38,9 +39,9 @@ public class Main {
         for (int i = 0; i < C.length; i++) {
             for (int j = 0; j < C[i].length; j++) {
                 sum = sum + C[i][j];
-                System.out.print(C[i][j]+" ");
+                System.out.print(C[i][j] + " ");
             }
-            System.out.print("- "+sum/C[i].length+"\n");
+            System.out.print("- " + sum / C[i].length + "\n");
             sum = 0;
         }
     }
